@@ -1,0 +1,167 @@
+/**
+
+ * All of the CSS for your public-facing functionality should be
+
+ * included in this file.
+
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+.woo-fc-logo {width:15%;}
+
+.woo-fc-error{color: #cd2653; font-family: "Open sans", sans-serif; font-weight: 700; font-size: 16px; padding: 15px 20px; background: #f9e1e1; line-height: 1.5; margin-top: 15px; border-radius: 5px;}
+
+.woo-fc-success{color: #008000}
+
+#woo-fc-qrcode{margin: 10px auto;}
+
+#wc-fc-payment-gateway-script-wrapper{margin: auto;}
+
+
+
+/* FC QR */
+
+#wc-fc-payment-gateway-checkout-wrapper {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -ms-flex-wrap: wrap; flex-wrap: wrap; clear:both;}
+
+.woo-fc-pay-qr {background: #93c01f; color: #fff; border: 1px solid #e5e5e5; padding: 20px; border-radius: 13px; position: relative; margin: 25px auto; width: auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; text-align: center; margin-left: auto; margin-right: auto;position: relative;}
+
+.woo-pay-to-details {margin-bottom: 10px;}
+
+.woo-pay-to-details span:first-child {color: #e4ff7a;}
+
+.woo-pay-to-details span {text-transform: uppercase; font-size: 16px; font-family: 'Ubuntu',sans-serif; font-weight: 500; color: #f6ff28;}
+
+#woo-fc-conversion { font-family: 'Ubuntu',sans-serif; }
+
+.pay-value {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; font-size: 45px; line-height: normal; word-break: break-word;}
+
+.pay-value>.volume-trade {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap;}
+
+.pay-value>span:first-child {font-size: 75px; font-family: 'Varela Round',sans-serif;}
+
+.volume-trade>span {font-size: 45px; margin-left: 13px;}
+
+.currency-value {margin-top: 15px; margin-bottom: 10px; font-size: 23px; font-family: 'ubuntu',sans-serif; font-weight: 400; word-break: break-word;}
+
+.woo-pay-qr-section {background-color: #fff; margin-top: 20px; padding: 25px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; height: 100%;}
+
+#woo-fc-qr-img-cntnr{display: flex;flex-wrap: nowrap;}
+
+#woo-fc-qr-img-cntnr > div{width: 50%;margin-bottom: 0;margin-top: 0;}
+
+#woo-fc-qr-img-cntnr > div:first-child{margin-right: 14px;}
+
+#woo-fc-qr-img-cntnr > div:last-child{margin-left: 14px;}
+
+#woo-fc-qr-img-cntnr > div#app-demo-img-cntnr img{height:100%;}
+
+#woo-fc-qrcode-text {color: #7f7f7f; font-family: 'Ubuntu', sans-serif;}
+
+.deposit-addr {margin-top: 10px; margin-bottom: 10px;}
+
+.deposit-addr span:first-child {text-transform: uppercase; white-space: nowrap;}
+
+.deposit-addr span {color: #7f7f7f; font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 13px; word-break: break-word;}
+
+button.fc-refresh-btn {background: #fff !important; border: 2px solid #93c01f !important; font-size: 16px !important; font-family: 'Ubuntu',sans-serif; font-weight: 500 !important; letter-spacing: .8px; display: block; height: auto; line-height: 53px !important; text-transform: uppercase; border-radius: 0 !important; margin-top: 15px !important; padding: 0 15px !important; width: 100%; color: #93c01f !important;}
+
+button.fc-refresh-btn:hover, button.fc-refresh-btn:focus {background: #93c01f !important; color: #fff !important;}
+
+
+
+/* Transaction Screen */
+
+.woo-fc-success-icon svg {color: #f6ff28; max-width: 70px; margin: 0 auto 10px;}
+
+#woo-fc-result-message {text-transform: uppercase; font-size: 24px; font-family: 'Open Sans', sans-serif; font-weight: 600; color: #f6ff28;}
+
+#woo-fc-result-list {border: 2px solid #e4ff7a; margin-top: 30px; padding: 0px 15px; color: #fff;}
+
+.woo-fc-heading {color: #e4ff7a; text-transform: uppercase; font-size: 16px; font-family: 'Ubuntu', sans-serif; font-weight: 500; letter-spacing: 1px; display: inline-block; padding-left: 18px; padding-right: 18px; background: #93c01f; top: -14px; position: relative;}
+
+#woo-fc-sentreceived-value {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; font-size: 45px; line-height: normal; word-break: break-word;}
+
+#woo-fc-sentreceived-value > span:first-child {font-size: 75px;}
+
+#woo-fc-sentreceived-value > .volume-trade {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap;}
+
+#woo-fc-sentreceived-value > span:last-child {font-size: 45px; margin-left: 13px;}
+
+#woo-fc-converted {font-size: 20px; font-family: 'ubuntu', sans-serif; font-weight: 400; text-transform: uppercase; margin: 0 0 10px;}
+
+#woo-exchange-text {font-family: 'Open Sans', sans-serif; font-size: 11px; text-align: center; margin-bottom: 18px; color: #fff;}
+
+#woo-fc-pay-transaction-details {background-color: #7ca01a; color: #fff; padding: 20px; margin-top: 30px; margin-bottom: 30px;}
+
+.woo-fc-deposit-addr {text-align: left; margin-bottom: 10px;}
+
+#woo-fc-pay-transaction-details .woo-fc-deposit-addr:last-child {margin-bottom: 0px;}
+
+.woo-fc-deposit-addr span {color: #fff; width: 100%; display: inline-block; font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 13px; word-break: break-word;}
+
+.woo-fc-deposit-addr span:first-child {text-transform: uppercase; white-space: nowrap;}
+
+#merchant-payout {margin-bottom: 10px; font-size: 23px; font-family: 'ubuntu',sans-serif; font-weight: 400;}
+
+#fiat-currency {font-family: 'Open Sans',sans-serif; font-size: 15px;}
+
+#woo-fc-get-transaction-id{position:absolute;visibility: hidden;}
+
+#woo-fc-refresh-text{color:#93c01f;margin-bottom:10px;font-size:17px;}
+
+.loader,
+.loader:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+.loader {
+  font-size: 2px;
+  position: relative;
+  top: -11px;
+  text-indent: -9999em;
+  border-top: 3px solid rgba(147, 192, 31, 0.2);
+  border-right: 3px solid rgba(147, 192, 31, 0.2);
+  border-bottom: 3px solid rgba(147, 192, 31, 0.2);
+  border-left: 3px solid #93c01f;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear;
+  display: inline-block;
+}
+.required-cust{color:#b22222;}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+	.pay-value>span:first-child {font-size: 40px;}
+
+	.currency-value {font-size: 20px;}
+
+	button.fc-refresh-btn {line-height: 47px !important;}
+
+}
